@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Tobey Tan",
   description: "Modern & Minimalist Web Portfolio for Tobey Tan",
+  icons: {
+    icon: '/yoshi.png'
+  }
 };
 
 export default function RootLayout({
