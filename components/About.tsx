@@ -26,7 +26,7 @@ const About = () => {
         <Card
           title="Expertise"
           icon={<AceternityIcon order="PRESENT" />}
-          des="My experiences have pushed me towards full-stack programming and project consulting skills. I grew a passion for developing new applications and for solving real-world problems with modern technical solutions; it brings me satisfaction and motivation observing my work in action. Pursuing the field of software engineering further, I continue to sharpen and diversify my toolkit of techincal skills."
+          des="My experiences have pushed me towards full-stack programming and project consulting skills. I grew a passion for developing new applications and for solving real-world problems with modern technical solutions; it brings me satisfaction and motivation observing my work in action. Pursuing the field of software engineering further, I continue to sharpen my skills by working on new projects."
         >
           <CanvasRevealEffect
             animationSpeed={3}
