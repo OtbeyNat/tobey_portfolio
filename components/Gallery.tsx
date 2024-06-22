@@ -12,6 +12,7 @@ const Gallery = () => {
             Check Out My
             <span className="text-purple"> Gallery</span>
         </h1>
+        <p className="text-center text-white-100 mt-2">Screenshots of Applications I Worked On</p>
 
         <div className="flex flex-col items-center mt-5">
             <InfiniteMovingCards

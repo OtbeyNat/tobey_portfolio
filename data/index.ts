@@ -147,6 +147,10 @@ export const navItems = [
       title: "J&J - Whatfix Data Visualization Screenshot",
       img: "/gallery/whatfix.png",
     },    
+    {
+      title: "Agoro - Discussion Forum Landing Page",
+      img: "/gallery/agoro.png",
+    },    
   ];
     
   export const workExperience = [
