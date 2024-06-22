@@ -46,7 +46,7 @@ const About = () => {
         <Card
           title="Exploration"
           icon={<AceternityIcon order="FUTURE" />}
-          des="I am currently searching for a full-time opportunity post-gradutation where I can apply my skills and experiences. My job hunt has been centered around software engineers and web development roles, but I am open to additional roles beyond this scope. In the near future, I will be tackling other frameworks and platforms such as AWS, .NET, and Spring in order to expand my horizons as a developer."
+          des="I am currently searching for a full-time opportunity post-gradutation where I can apply my skills and experiences. My job hunt has been centered around software engineer and web development roles, but I am open to additional roles beyond this scope. In the near future, I will be tackling other frameworks and platforms such as AWS, .NET, and Spring in order to expand my horizons as a developer."
         >
           <CanvasRevealEffect
             animationSpeed={3}

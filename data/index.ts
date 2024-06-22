@@ -30,8 +30,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Include Important and Modern Technologies",
-      description: "My primary skills",
+      title: "Includes Important and Modern Technologies",
+      description: "My tech stack",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
