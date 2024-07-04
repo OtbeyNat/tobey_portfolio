@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
+import { Button } from "./ui/MovingBorders";
 
 const Footer = () => {
   return (
@@ -14,6 +15,9 @@ const Footer = () => {
                 Reach out to me today <span className="text-purple">tctan317@gmail.com</span> and let&apos;s discuss how I can help you
                 achieve your goals.
             </p>
+            <Button duration={10100} borderRadius={`calc(1.75rem* 0.96)`} className="border-neutral-200 dark:border-slate-800">
+            <img src="Tobey_2024.jpg" alt="tobey" className="h-[10rem] lg:h-[20rem]"/>
+            </Button>
             <a href="mailto:tctan317@gmail.com">
             <MagicButton
                 title="Let's get in touch"
