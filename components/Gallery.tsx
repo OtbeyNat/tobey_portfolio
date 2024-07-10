@@ -1,8 +1,6 @@
 "use client";
 
-import React from "react";
-
-import { companies, gallery } from "@/data";
+import { gallery } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Gallery = () => {
@@ -18,7 +16,7 @@ const Gallery = () => {
             <InfiniteMovingCards
             items={gallery}
             direction="left"
-            speed="slow"
+            speed="extra-slow"
             />
             {/* <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
             {companies.map((company) => (

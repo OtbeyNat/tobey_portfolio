@@ -74,22 +74,30 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Evently - Event Organization Platform",
-      des: "A platform to explore, host, and join events featuring user authentication and payment systems using the latest tech stack.",
-      img: "/gallery/evently-cover.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "mongodb.svg", "/c.svg", "/stripe.svg"],
-      link: "https://event-platform-steel-nine.vercel.app/",
+      title: "Carepulse - Healthcare Appointment Platform",
+      des: "A platform to for patients and healthcare workers to create, schedule, manage, and cancel appointments built in NextJS.",
+      img: "/gallery/carepulse-landing.png",
+      iconLists: ["/re.svg", "next.svg", "/tail.svg", "/ts.svg", "appwrite.svg", "sentry.svg"],
+      link: "https://healthcare-platform-smoky.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "NextJS Zoom Clone Application. Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/gallery/yoom-cover.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://zoom-clone-sooty-beta.vercel.app/",
+      title: "Evently - Event Organization Platform",
+      des: "A platform to explore, host, and join events featuring user authentication and payment systems using the latest tech stack.",
+      img: "/gallery/evently-cover.png",
+      iconLists: ["/re.svg", "next.svg", "/tail.svg", "/ts.svg", "mongodb.svg", "/c.svg", "/stripe.svg"],
+      link: "https://event-platform-steel-nine.vercel.app/",
     },
     {
       id: 3,
+      title: "Yoom - Video Conferencing App",
+      des: "NextJS Zoom Clone Application. Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      img: "/gallery/yoom-cover.png",
+      iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "https://zoom-clone-sooty-beta.vercel.app/",
+    },
+    {
+      id: 4,
       title: "Threads Clone App",
       des: "Social Media Clone Application of Threads featuring the ability to post threads, reply to messages, and follow friends. Built using NextJS, Typescript, MongoDB and more.",
       img: "/gallery/threads-cover.png",
@@ -97,7 +105,7 @@ export const navItems = [
       link: "https://github.com/OtbeyNat/threads_app",
     },
     {
-      id: 4,
+      id: 5,
       title: "Python Games Library",
       des: "Created modified versions of classic two-dimensional games such as snake, flappybird, street fighter and other platformers with Python library Pygame",
       img: "/gallery/fight_screenshot.png",
@@ -148,8 +156,32 @@ export const navItems = [
       img: "/gallery/whatfix.png",
     },    
     {
-      title: "Agoro - Discussion Forum Landing Page",
-      img: "/gallery/agoro.png",
+      title: "CarePulse - Landing Page",
+      img: "/gallery/carepulse-landing.png",
+    },    
+    {
+      title: "CarePulse - Patient Registration Form",
+      img: "/gallery/carepulse-register.png",
+    },    
+    {
+      title: "CarePulse - Create Appointment Form",
+      img: "/gallery/carepulse-appointment.png",
+    },    
+    {
+      title: "CarePulse - Appointment Confirmation",
+      img: "/gallery/carepulse-success.png",
+    },    
+    {
+      title: "CarePulse - OTP Admin Verification",
+      img: "/gallery/carepulse-otp.png",
+    },    
+    {
+      title: "CarePulse - Admin Appointment Dashboard",
+      img: "/gallery/carepulse-admin.png",
+    },    
+    {
+      title: "CarePulse - Schedule Appointment Modal",
+      img: "/gallery/carepulse-schedule.png",
     },    
   ];
     
