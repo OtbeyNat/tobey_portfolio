@@ -13,7 +13,9 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import * as Sentry from "@sentry/nextjs"
 
 const Home = () => {
-  Sentry.metrics.set("user_load_page","user");
+  let date = new Date()
+  Sentry.metrics.set("user_load_page",date.toString());
+  
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
