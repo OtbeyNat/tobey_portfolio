@@ -74,6 +74,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Expense Tracker",
+      des: "A simple full-stack expense tracker application with modern technologies such as React for front-end,Express and Apollo for back-end, Passport for user authentication, MongoDB for database, and GraphQL for queries and mutations",
+      img: "/gallery/expense.png",
+      iconLists: ["/re.svg", "mongodb.svg", "graphql.svg","express-js.svg", "apollo.svg"],
+      link: "https://github.com/OtbeyNat/graphql_expense_mern",
+    },
+    {
+      id: 2,
       title: "Carepulse - Healthcare Appointment Platform",
       des: "A platform to for patients and healthcare workers to create, schedule, manage, and cancel appointments built in NextJS.",
       img: "/gallery/carepulse-landing.png",
@@ -81,7 +89,7 @@ export const navItems = [
       link: "https://healthcare-platform-smoky.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Evently - Event Organization Platform",
       des: "A platform to explore, host, and join events featuring user authentication and payment systems using the latest tech stack.",
       img: "/gallery/evently-cover.png",
@@ -89,20 +97,12 @@ export const navItems = [
       link: "https://event-platform-steel-nine.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Yoom - Video Conferencing App",
       des: "NextJS Zoom Clone Application. Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/gallery/yoom-cover.png",
       iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://zoom-clone-sooty-beta.vercel.app/",
-    },
-    {
-      id: 4,
-      title: "Threads Clone App",
-      des: "Social Media Clone Application of Threads featuring the ability to post threads, reply to messages, and follow friends. Built using NextJS, Typescript, MongoDB and more.",
-      img: "/gallery/threads-cover.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "mongodb.svg", "/c.svg"],
-      link: "https://github.com/OtbeyNat/threads_app",
     },
     {
       id: 5,
