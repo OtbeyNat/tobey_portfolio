@@ -74,6 +74,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Ryde",
+      des: "A react native mobile app that simulates the process of requesting a ride on Uber. Incorporated NeonDB for postgres database, Stripe for payment processing, Clerk for user authentication with Google, and Zustand for state management",
+      img: "/gallery/ryde-cover.jpg",
+      iconLists: ["/re.svg", "expo.svg", "neon.svg", "c.svg", "stripe.svg"],
+      link: "https://github.com/OtbeyNat/uber_clone",
+    },
+    {
+      id: 2,
       title: "Expense Tracker",
       des: "A simple full-stack expense tracker application with modern technologies such as React for front-end,Express and Apollo for back-end, Passport for user authentication, MongoDB for database, and GraphQL for queries and mutations",
       img: "/gallery/expense.png",
@@ -81,7 +89,7 @@ export const navItems = [
       link: "https://github.com/OtbeyNat/graphql_expense_mern",
     },
     {
-      id: 2,
+      id: 3,
       title: "Carepulse - Healthcare Appointment Platform",
       des: "A platform to for patients and healthcare workers to create, schedule, manage, and cancel appointments built in NextJS.",
       img: "/gallery/carepulse-landing.png",
@@ -89,7 +97,7 @@ export const navItems = [
       link: "https://healthcare-platform-smoky.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Evently - Event Organization Platform",
       des: "A platform to explore, host, and join events featuring user authentication and payment systems using the latest tech stack.",
       img: "/gallery/evently-cover.png",
@@ -97,7 +105,7 @@ export const navItems = [
       link: "https://event-platform-steel-nine.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Yoom - Video Conferencing App",
       des: "NextJS Zoom Clone Application. Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/gallery/yoom-cover.png",
@@ -105,7 +113,7 @@ export const navItems = [
       link: "https://zoom-clone-sooty-beta.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Python Games Library",
       des: "Created modified versions of classic two-dimensional games such as snake, flappybird, street fighter and other platformers with Python library Pygame",
       img: "/gallery/fight_screenshot.png",
@@ -182,6 +190,30 @@ export const navItems = [
     {
       title: "CarePulse - Schedule Appointment Modal",
       img: "/gallery/carepulse-schedule.png",
+    },    
+    {
+      title: "Ryde - Onboarding",
+      img: "/gallery/ryde-1.jpg",
+    },    
+    {
+      title: "Ryde - Sign In",
+      img: "/gallery/ryde-2.jpg",
+    },    
+    {
+      title: "Ryde - Home",
+      img: "/gallery/ryde-3.jpg",
+    },    
+    {
+      title: "Ryde - Choose Driver",
+      img: "/gallery/ryde-4.jpg",
+    },    
+    {
+      title: "Ryde - Details Confirmation",
+      img: "/gallery/ryde-5.jpg",
+    },    
+    {
+      title: "Ryde - Rides History",
+      img: "/gallery/ryde-6.jpg",
     },    
   ];
     
