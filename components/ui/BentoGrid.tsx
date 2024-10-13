@@ -174,7 +174,7 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <a
-              href="https://drive.google.com/file/d/14M-N95MYsUG5Dpu-ZEN7CII2z3o1yyN-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1HJKvt2f8-x8Co7b7b8qAZL683aodN0da/view?usp=sharing"
               target={"_blank"}
               >
                 <MagicButton
