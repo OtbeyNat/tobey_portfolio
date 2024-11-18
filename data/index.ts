@@ -73,7 +73,15 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
+      id: 6,
+      title: "Spotify LITE",
+      des: "Spotify Lite is a full stack MERN application and lightweight version of the popular music streaming service using the latest web development features and Spotify's Web API.",
+      img: "/gallery/spotify-lite.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "mongodb.svg", "/c.svg"],
+      link: "https://github.com/OtbeyNat/spotify-lite",
+    },
+    {
+      id: 5,
       title: "Ryde",
       des: "A react native mobile app that simulates the process of requesting a ride on Uber. Incorporated NeonDB for postgres database, Stripe for payment processing, Clerk for user authentication with Google, and Zustand for state management",
       img: "/gallery/ryde-cover.jpg",
@@ -81,7 +89,7 @@ export const navItems = [
       link: "https://github.com/OtbeyNat/uber_clone",
     },
     {
-      id: 2,
+      id: 4,
       title: "Expense Tracker",
       des: "A simple full-stack expense tracker application with modern technologies such as React for front-end,Express and Apollo for back-end, Passport for user authentication, MongoDB for database, and GraphQL for queries and mutations",
       img: "/gallery/expense.png",
@@ -97,7 +105,7 @@ export const navItems = [
       link: "https://healthcare-platform-smoky.vercel.app/",
     },
     {
-      id: 4,
+      id: 2,
       title: "Evently - Event Organization Platform",
       des: "A platform to explore, host, and join events featuring user authentication and payment systems using the latest tech stack.",
       img: "/gallery/evently-cover.png",
@@ -105,15 +113,7 @@ export const navItems = [
       link: "https://event-platform-steel-nine.vercel.app/",
     },
     {
-      id: 5,
-      title: "Yoom - Video Conferencing App",
-      des: "NextJS Zoom Clone Application. Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/gallery/yoom-cover.png",
-      iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://zoom-clone-sooty-beta.vercel.app/",
-    },
-    {
-      id: 6,
+      id: 1,
       title: "Python Games Library",
       des: "Created modified versions of classic two-dimensional games such as snake, flappybird, street fighter and other platformers with Python library Pygame",
       img: "/gallery/fight_screenshot.png",
