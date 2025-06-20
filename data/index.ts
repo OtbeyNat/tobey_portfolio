@@ -74,6 +74,14 @@ export const navItems = [
   export const projects = [
     {
       id: 7,
+      title: "Cocktail Animated",
+      des: "A customizable landing page built with React, Tailwind, and GSAP animations featuring drinks and advertising an imaginary cocktail bar.",
+      img: "/gallery/cocktail-ss.png",
+      iconLists: ["/re.svg", "/tail.svg"],
+      link: "https://otbeynat-cocktails-gsap.vercel.app/",
+    },
+    {
+      id: 7,
       title: "Spotify LITE",
       des: "Spotify Lite is a full stack MERN application and lightweight version of the popular music streaming service using the latest web development features and Spotify's Web API.",
       img: "/gallery/spotify-lite.png",
