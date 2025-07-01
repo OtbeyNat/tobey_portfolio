@@ -140,6 +140,42 @@ export const navItems = [
   
   export const gallery = [
     {
+      title: "Invite RSVP - Master List",
+      img: "/gallery/cst-admin.png",
+    },    
+    {
+      title: "Invite RSVP - Event Information",
+      img: "/gallery/cst-event-details.png",
+    },    
+    {
+      title: "Invite RSVP - Create Event",
+      img: "/gallery/cst-create-event.png",
+    },    
+    {
+      title: "Invite RSVP - Profile",
+      img: "/gallery/cst-profile.png",
+    },    
+    {
+      title: "Cocktail - Menu + Video Background",
+      img: "/gallery/cocktail-ss.png",
+    },    
+    {
+      title: "Cocktail - Image Mask",
+      img: "/gallery/cocktail-image-mask.png",
+    },    
+    {
+      title: "Cocktail - Gallery",
+      img: "/gallery/cocktail-gallery.png",
+    },  
+    {
+      title: "Zentry Clone - Landing",
+      img: "/gallery/zentry.png",
+    },    
+    {
+      title: "Zentry - Video Playback",
+      img: "/gallery/zentry-video.png",
+    },    
+    {
       title: "Evently - Home Page",
       img: "/gallery/evently-cover.png",
     },
@@ -150,14 +186,6 @@ export const navItems = [
     {
       title: "Evently - Event Details",
       img: "/gallery/evently-4.png",
-    },
-    {
-      title: "Yoom - Home Page",
-      img: "/gallery/yoom-cover.png",
-    },
-    {
-      title: "Yoom - Video Call",
-      img: "/gallery/yoom-1.png",
     },
     {
       title: "2D Fighter - Action Screenshot",
@@ -178,11 +206,7 @@ export const navItems = [
     {
       title: "J&J - Whatfix Data Visualization Screenshot",
       img: "/gallery/whatfix.png",
-    },    
-    {
-      title: "CarePulse - Landing Page",
-      img: "/gallery/carepulse-landing.png",
-    },    
+    },       
     {
       title: "CarePulse - Patient Registration Form",
       img: "/gallery/carepulse-register.png",
@@ -190,11 +214,7 @@ export const navItems = [
     {
       title: "CarePulse - Create Appointment Form",
       img: "/gallery/carepulse-appointment.png",
-    },    
-    {
-      title: "CarePulse - Appointment Confirmation",
-      img: "/gallery/carepulse-success.png",
-    },    
+    },       
     {
       title: "CarePulse - OTP Admin Verification",
       img: "/gallery/carepulse-otp.png",
@@ -202,10 +222,6 @@ export const navItems = [
     {
       title: "CarePulse - Admin Appointment Dashboard",
       img: "/gallery/carepulse-admin.png",
-    },    
-    {
-      title: "CarePulse - Schedule Appointment Modal",
-      img: "/gallery/carepulse-schedule.png",
     },    
     {
       title: "Ryde - Onboarding",
@@ -230,7 +246,7 @@ export const navItems = [
     {
       title: "Ryde - Rides History",
       img: "/gallery/ryde-6.jpg",
-    },    
+    },      
   ];
     
   export const workExperience = [

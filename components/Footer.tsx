@@ -18,13 +18,6 @@ const Footer = () => {
             <Button duration={10100} borderRadius={`calc(1.75rem* 0.96)`} className="border-neutral-200 dark:border-slate-800">
             <img src="Tobey_2024.jpg" alt="tobey" className="h-[10rem] lg:h-[20rem]"/>
             </Button>
-            <a href="mailto:tctan317@gmail.com">
-            <MagicButton
-                title="Let's get in touch"
-                icon={<FaLocationArrow />}
-                position="right"
-            />
-            </a>
         </div>
         <div className="flex mt-16 md:flex-row flex-col justify-center items-center gap-2">
           <div className="flex items-center md:gap-3 gap-6">
